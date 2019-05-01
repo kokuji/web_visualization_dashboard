@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css_style.css">
+  <title>WeatherPy</title>
+</head>
+<body>
+<!-- Create navigation bar (reusable) -->
+<nav class="navbar-expand-sm bg-light">
+    <!-- Links -->
+    <ul class="navbar-nav">
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+    Plots
+  </a>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+    <a class="dropdown-item" href="humidity.html">Humidity</a>
+    <a class="dropdown-item" href="temperature.html">Temperature</a>
+    <a class="dropdown-item" href="windspeed.html">Windspeed</a>
+  </div>
+      <li class="nav-item">
+        <a class="nav-link" href="comparison">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+    </ul>
+  
+ </nav>
+
+ <div>
+ <section class="row">
+   <div class="col-md-6">
+      <article class = "latitude">
+          <a target="_blank" href="./Images/latitude-cloudiness.png">
+            <img src="./Images/latitude-cloudiness.png" alt="Cloudy Map">
+          </a>
+          <p><em>Cloudy Map</em></p>
+        </article>
+   </div>
+ </section>
+ <section></section>
+ </div>
+
+    <h1>WeatherPy</h1>
+    <article>
+    <a target="_blank" href="./Images/latitude-cloudiness.png">
+      <img src="./Images/latitude-cloudiness.png" alt="Cloudy Map">
+    </a>
+    <p><em>Cloudy Map</em></p>
+    </article>
+    <hr>
+    <article>
+    <a target="_self" href="./Images/latitude-humidity.png">
+    <img src="./Images/latitude-humidity.png" alt="Humidity Map">
+    </a>
+    <p><em>Humidity Map</em></p>
+    </article>
+    <hr>
+    <article>
+      <a href="./Images/latitude-max temperature.png">
+      <img target=_blank" src="./Images/latitude-max temperature.png" alt="Tempurature Map">
+      </a>
+      <p><em>Temperature Map</em></p>
+    </article>
+    <hr>
+    <!-- an example using figure/ficaption -->
+    <figure>
+      <a target="_blank" href="./Images/latitude-windspeed.png">
+      <img src="./Images/latitude-windspeed.png" alt="Wind Map">
+      </a>
+      <figcaption><em>Wind Map</em></figcaption>
+    </figure>
+
+</body>
+
+</html>
