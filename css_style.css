@@ -168,7 +168,7 @@ html {
   /* ----DESCRIPTION END---- */
   
   /* ----IMAGE NAV START---- */
-  #ImageNav-area {
+  #imageNav-area {
     width: 100%;
   
     /* Box-model */
@@ -181,7 +181,7 @@ html {
     background-color: #fff;
   }
   
-  .ImageNav-header {
+  .imageNav-header {
     /* Positioning */
     margin-bottom: 15px;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -192,19 +192,19 @@ html {
     color: #4aaaa5;
   }
   
-  .ImageNav-photo {
+  .imageNav-photo {
     width: 140px;
   
     /* Box-model */
     height: 140px;
   }
   
-  .ImageNav-photo:hover {
+  .imageNav-photo:hover {
     /* Visuals */
     opacity: 0.6;
   }
   
-  .ImageNav-photo.active {
+  .imageNav-photo.active {
     /* Visuals */
     border: 2px solid #4aaaa5;
   }
